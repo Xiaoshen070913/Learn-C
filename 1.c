@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main ()
 {
+printf("请输入两次时间小时和分钟来计算时间差，""例如输入\"1  45\"表示1小时45分钟:");
 int hour1, minute1;
 int hour2, minute2;
 
