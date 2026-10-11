@@ -12,3 +12,5 @@
 	gcc 5.c -o 5
 6: 6.c
 	gcc 6.c -o 6
+7: 7.c
+	gcc 7.c -o 7
