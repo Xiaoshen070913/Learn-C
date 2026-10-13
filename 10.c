@@ -16,7 +16,11 @@ int main ()
 
 	if ( ih <0){
 		ih = ih*(-1);
-		ih --;
+	if (im >0){
+	im = 60 - im;
+	ih --;
+}
+
 }
 
 
