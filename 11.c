@@ -11,13 +11,9 @@ scanf("%d", &bill);
 
 if (bill >= price){
 	printf("应该找您： %d\n", bill - price);
-}
-if (bill < price){
+} else  {
 	printf("你的钱不够，还需要%d元", (bill - price)*(-1));
-
-
 }
-
 
 	return 0;
 }
